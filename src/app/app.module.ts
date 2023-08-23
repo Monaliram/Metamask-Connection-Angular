@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MetamaskConnectComponent } from './metamask-connect/metamask-connect.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MetamaskConnectComponent
   ],
   imports: [
     BrowserModule,
